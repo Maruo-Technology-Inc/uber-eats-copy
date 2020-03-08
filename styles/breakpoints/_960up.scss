@@ -1,0 +1,48 @@
+.main{
+
+    
+   
+
+    &-top{
+        &>p{
+            width: 50%;
+        }
+        &>h1{
+            text-align: center;
+        }
+    }
+    &-location{
+        width: 50%;
+    }
+    &-find{
+        width: 50%;
+    }
+
+
+    &-foods{
+        &-inner{
+            display: flex;
+            justify-content:space-between;
+        }
+
+        &-item{
+            width: 45%;
+
+        }
+    }
+}
+
+
+.footer{
+    &-nav-container{
+        display: flex;
+        justify-content:space-between;
+    }
+
+    &-bottom{
+        .footer-ul{
+            display: flex;
+            justify-content:space-between;
+        }
+    }
+}
